@@ -1,8 +1,14 @@
 package com.vom.microservices.currencyexchangeservice;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.math.BigDecimal;
 
+@Entity
 public class CurrencyExchange {
+
+    @Id
     private long id;
     private String from;
     private String to;
