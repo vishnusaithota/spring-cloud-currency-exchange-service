@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 public class CurrencyExchange {
 
     @Id
-    private long id;
+    private Long id;
     @Column(name = "currency_from")
     private String from;
     @Column(name = "currency_to")
